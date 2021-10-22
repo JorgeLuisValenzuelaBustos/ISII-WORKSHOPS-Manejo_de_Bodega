@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.39.0" timestamp="2021-10-22T18:47:31.864">
+<file name="src/main/java/ec/edu/espol/workshops/CarInsurance.java">
+<violation beginline="4" endline="101" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="4" endline="101" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="52" endline="77" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="52" endline="77" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="SimplifyBooleanExpressions" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#simplifybooleanexpressions" priority="3">
+SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="SimplifyBooleanExpressions" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#simplifybooleanexpressions" priority="3">
+SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="SimplifyBooleanExpressions" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#simplifybooleanexpressions" priority="3">
+SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="SimplifyBooleanExpressions" ruleset="Design" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_design.html#simplifybooleanexpressions" priority="3">
+SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="79" endline="85" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="79" endline="85" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="82" endline="82" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.print is used
+</violation>
+<violation beginline="82" endline="82" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+SystemPrintln: System.out.print is used
+</violation>
+<violation beginline="88" endline="95" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="88" endline="95" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="90" endline="91" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'license' (lines '90'-'91').
+</violation>
+<violation beginline="90" endline="91" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'license' (lines '90'-'91').
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'license' is never used (overwritten on line 91)
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="UnusedAssignment" ruleset="Best Practices" package="ec.edu.espol.workshops" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.39.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+UnusedAssignment: The initializer for variable 'license' is never used (overwritten on line 91)
+</violation>
+</file>
+</pmd>
