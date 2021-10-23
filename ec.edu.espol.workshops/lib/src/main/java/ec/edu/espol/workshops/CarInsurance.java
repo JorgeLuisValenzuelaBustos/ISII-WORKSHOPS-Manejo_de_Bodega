@@ -1,6 +1,10 @@
 
 package ec.edu.espol.workshops;
 
+/**
+ * @author Home
+ *
+ */
 public class CarInsurance {
 	
 	int age;
@@ -25,11 +29,16 @@ public class CarInsurance {
 		return basePrice;
 	}
 
+	/*
+	 * 
+	 */
 	public boolean setMarried(boolean married) { return this.married = married; }
 	
 	public void setAge(int age) { 
 		
-		if(age > 18) {
+		int mayoriaEdad = 18;
+		
+		if(age > mayoriaEdad) {
 			this.age = age; }
 		
 	} 
@@ -48,54 +57,57 @@ public class CarInsurance {
 		
 	}
 	
-	
+	/*
+	 * Calcula si es premium 
+	 * @return double
+	 */
 	public double calculatePremium() {
 
-		if((this.sex== 'M') && (this.married== false) && (this.age<25)) {
+		boolean male = (this.sex == 'M') && (!this.married);
+		boolean female = (this.sex == 'F') || (this.married);
+		
+		if( male && (this.age < 25) ) {
 			this.basePrice= +1500;
 			return this.basePrice;
 			
-		}
-		
-		else if((this.sex== 'F') || (this.married== true)) {
+		} else if(female) {
+			
 			this.basePrice=-200;
 			return this.basePrice;
 			
-		}
-		
-		else if((this.age >=45) && (this.age < 65 )) {
+		} else if( (this.age >=45) && (this.age < 65 ) ) {
+			
 			this.basePrice=-100;
 			return this.basePrice;
 			
 		}
 		
-		else {
-			return -1;
-		}
+		return -1;
 		
 		
 	}
-	
+
+	/*
+	 * 
+	 */
 	public void sellInsurance() {
 		
 		if((this.age >80)||(generateLicense() == null)) {
-			 System.out.print("Doesn't meet the requirements");
+			 System.out.println("Doesn't meet the requirements");
 		}
 		
 	}
 	
-	
+	/*
+	 * Gerera la licencia del seguro
+	 * @return String Valor de la licencia
+	 */
 	public String generateLicense() {
 		
-		 int license = 0;
-		 license = (int)((Math.random() * 900000000)+10000000);
+		 int license = (int)((Math.random() * 900000000)+10000000);
 		 
 		 return String.valueOf(license);
 		
 	}
 	
-	
-	
-	
-
 }
