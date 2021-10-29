@@ -78,7 +78,7 @@ public class CarInsurance {
 	
 	public void sellInsurance() {
 		
-		if((this.age >80)||(generateLicense() == null)) {
+		if((this.age >80) && (generateLicense().length()==9)) {
 			 System.out.print("Doesn't meet the requirements");
 		}
 		
