@@ -9,6 +9,12 @@ public class CarInsurance {
 	double basePrice = 500;
 	
 	
+	public CarInsurance(int age, char sex, boolean married) {
+		this.age = age;
+		this.sex = sex;
+		this.married = married;
+	}
+
 	public int getAge() {
 		return age;
 	}
@@ -52,13 +58,13 @@ public class CarInsurance {
 	public double calculatePremium() {
 
 		if((this.sex== 'M') && (this.married== false) && (this.age<25)) {
-			this.basePrice= +1500;
+			this.basePrice+= 1500;
 			return this.basePrice;
 			
 		}
 		
-		else if((this.sex== 'F') || (this.married== true)) {
-			this.basePrice=-200;
+		else if((this.sex== 'F' && age<25) || (this.married== true)) {
+			this.basePrice-=200;
 			return this.basePrice;
 			
 		}
