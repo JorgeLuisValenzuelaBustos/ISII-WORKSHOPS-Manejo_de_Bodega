@@ -63,7 +63,7 @@ public class CarInsurance {
 			
 		}
 		
-		else if((this.sex== 'F' && age<25) || (this.married== true)) {
+		else if((this.sex== 'F') || (this.married== true)) {
 			this.basePrice-=200;
 			return this.basePrice;
 			
