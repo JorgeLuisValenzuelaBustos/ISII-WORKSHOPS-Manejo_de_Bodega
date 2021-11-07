@@ -33,12 +33,16 @@ public class CarInsurance {
 
 	public boolean setMarried(boolean married) { return this.married = married; }
 	
-	public void setAge(int age) { 
+	public boolean setAge(int age) { 
 		
 		if(age > 18) {
-			this.age = age; }
+			this.age = age;
+			return true;
+		}
 		
-	} 
+		return false;
+		
+	}
 	
 	public void setBasePrice(double basePrice) { 
 		
@@ -79,18 +83,18 @@ public class CarInsurance {
 			return -1;
 		}
 		
-		
 	}
 	
-	public void sellInsurance() {
+	public String sellInsurance() {
 		
 		if((this.age >80) && (generateLicense().length()==9)) {
-			 System.out.print("Doesn't meet the requirements");
+			 return "Doesn't meet the requirements";
 		}
+	
+		return "Meet requirements";
 		
 	}
-	
-	
+		
 	public String generateLicense() {
 		
 		 int license = 0;
@@ -100,8 +104,10 @@ public class CarInsurance {
 		
 	}
 	
+	public static void main(String[] args) {
 	
-	
-	
-
+		System.out.println( new CarInsurance(81, 'H', false).sellInsurance() );
+		
+	}
+			
 }
