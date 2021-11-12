@@ -74,7 +74,7 @@ public class CarInsurance {
 		}
 		
 		else if((this.age >=45) && (this.age < 65 )) {
-			this.basePrice=-100;
+			this.basePrice-=100;
 			return this.basePrice;
 			
 		}
