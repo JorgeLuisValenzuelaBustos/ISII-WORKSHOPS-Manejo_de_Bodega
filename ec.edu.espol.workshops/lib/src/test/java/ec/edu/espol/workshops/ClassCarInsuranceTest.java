@@ -35,6 +35,21 @@ public class ClassCarInsuranceTest {
 		CarInsurance insurance = new CarInsurance(20,'M', false);
 		assertEquals(2000, insurance.calculatePremium(), 0);
 	}
-
+	
+	@Test
+	public void ageBoundariesTrue() {
+		CarInsurance insurance = new CarInsurance(30,'F', false);
+		assertEquals(true,insurance.setAge(18));
+		assertEquals(true,insurance.setAge(19));
+		assertEquals(true,insurance.setAge(80));
+		assertEquals(true,insurance.setAge(79));
+	}
+	
+	@Test
+	public void ageBoundariesFalse() {
+		CarInsurance insurance = new CarInsurance(30,'F', false);
+		assertEquals(false,insurance.setAge(17));
+		assertEquals(false,insurance.setAge(81));
+	}
 
 }

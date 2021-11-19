@@ -23,5 +23,7 @@ public class CarInsuranceTest {
 		CarInsurance insurance = new CarInsurance(30,'F', false);
 		assertEquals(300,insurance.calculatePremium(),0);
 	}
-
+	
+	
+	
 }
