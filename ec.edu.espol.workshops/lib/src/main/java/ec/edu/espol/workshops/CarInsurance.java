@@ -35,7 +35,7 @@ public class CarInsurance {
 	
 	public boolean setAge(int age) { 
 		
-		if(age > 18) {
+		if(age >= 18 && age<=80) {
 			this.age = age;
 			return true;
 		}
