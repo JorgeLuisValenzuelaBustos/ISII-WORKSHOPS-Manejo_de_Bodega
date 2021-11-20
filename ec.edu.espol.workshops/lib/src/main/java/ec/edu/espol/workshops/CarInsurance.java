@@ -1,5 +1,6 @@
 
 package ec.edu.espol.workshops;
+import java.util.UUID;
 
 public class CarInsurance {
 	
@@ -97,10 +98,8 @@ public class CarInsurance {
 		
 	public String generateLicense() {
 		
-		 int license = 0;
-		 license = (int)((Math.random() * 900000000)+10000000);
-		 
-		 return String.valueOf(license);
+		 String license = UUID.randomUUID().toString();
+		 return license.substring(0, 9);
 		
 	}
 	
