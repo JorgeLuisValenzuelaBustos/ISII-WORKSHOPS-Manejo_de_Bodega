@@ -6,7 +6,7 @@ public class CarInsurance {
 	int age;
 	char sex;
 	boolean married; // 1 is married else 0
-	double basePrice = 500;
+	double basePrice = 600;
 	
 	
 	public CarInsurance(int age, char sex, boolean married) {
